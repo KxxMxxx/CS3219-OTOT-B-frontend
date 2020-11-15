@@ -1,12 +1,11 @@
 .card {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 95%;
   background-color: black;
   border: 8px solid white;
   color: white;
   border-radius: 20px;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 .card h5 {

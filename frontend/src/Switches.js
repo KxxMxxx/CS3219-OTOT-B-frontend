@@ -14,11 +14,11 @@ const Switches = ({item, remove}) => {
                         remove(item);
                     }} className="btn btn-danger">Delete</button>
                 </div>
-                <h6 className="card-subtitle mb-2 text-muted">{item.name}</h6>
-                <h6 className="card-subtitle mb-2 text-muted">{item.type}</h6>
-                <h6 className="card-subtitle mb-2 text-muted">{item.actuation}</h6>
-                <h6 className="card-subtitle mb-2 text-muted">{item.travel}</h6>
-                <h6 className="card-subtitle mb-2 text-muted">{item.bottom}</h6>
+                <h6 className="card-subtitle mb-2 text-muted">name: {item.name}</h6>
+                <h6 className="card-subtitle mb-2 text-muted">type: {item.type}</h6>
+                <h6 className="card-subtitle mb-2 text-muted">actuation: {item.actuation}g</h6>
+                <h6 className="card-subtitle mb-2 text-muted">bottom-out: {item.bottom}g</h6>
+                <h6 className="card-subtitle mb-2 text-muted">travel: {item.travel}mm</h6>
             </div>
         </div>
     );
